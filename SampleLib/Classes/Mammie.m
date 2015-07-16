@@ -10,7 +10,7 @@
 
 @implementation Mammie
 
-- (void)braak
+- (void)kots
 {
     int i = 0;
     i++;
