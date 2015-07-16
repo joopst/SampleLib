@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8E85A191B57A5BE00F78AA5 /* SampleLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8E85A181B57A5BE00F78AA5 /* SampleLib.h */; };
-		C8E85A1B1B57A5BE00F78AA5 /* SampleLib.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E85A1A1B57A5BE00F78AA5 /* SampleLib.m */; };
 		C8E85A211B57A5BE00F78AA5 /* libSampleLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E85A151B57A5BE00F78AA5 /* libSampleLib.a */; };
+		C8E85A381B57DBF700F78AA5 /* Opa.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E85A351B57DBF700F78AA5 /* Opa.m */; };
+		C8E85A391B57DBF700F78AA5 /* SampleLib.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E85A371B57DBF700F78AA5 /* SampleLib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				C8E85A191B57A5BE00F78AA5 /* SampleLib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +36,13 @@
 
 /* Begin PBXFileReference section */
 		C8E85A151B57A5BE00F78AA5 /* libSampleLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSampleLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8E85A181B57A5BE00F78AA5 /* SampleLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleLib.h; sourceTree = "<group>"; };
-		C8E85A1A1B57A5BE00F78AA5 /* SampleLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleLib.m; sourceTree = "<group>"; };
 		C8E85A201B57A5BE00F78AA5 /* SampleLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E85A261B57A5BE00F78AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E85A321B57DBB300F78AA5 /* SampleLib.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SampleLib.podspec; sourceTree = SOURCE_ROOT; };
+		C8E85A341B57DBF700F78AA5 /* Opa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Opa.h; path = Classes/Opa.h; sourceTree = "<group>"; };
+		C8E85A351B57DBF700F78AA5 /* Opa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Opa.m; path = Classes/Opa.m; sourceTree = "<group>"; };
+		C8E85A361B57DBF700F78AA5 /* SampleLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleLib.h; path = Classes/SampleLib.h; sourceTree = "<group>"; };
+		C8E85A371B57DBF700F78AA5 /* SampleLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleLib.m; path = Classes/SampleLib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,8 @@
 		C8E85A171B57A5BE00F78AA5 /* SampleLib */ = {
 			isa = PBXGroup;
 			children = (
-				C8E85A181B57A5BE00F78AA5 /* SampleLib.h */,
-				C8E85A1A1B57A5BE00F78AA5 /* SampleLib.m */,
+				C8E85A331B57DBED00F78AA5 /* Classes */,
+				C8E85A321B57DBB300F78AA5 /* SampleLib.podspec */,
 			);
 			path = SampleLib;
 			sourceTree = "<group>";
@@ -103,6 +105,17 @@
 				C8E85A261B57A5BE00F78AA5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8E85A331B57DBED00F78AA5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C8E85A341B57DBF700F78AA5 /* Opa.h */,
+				C8E85A351B57DBF700F78AA5 /* Opa.m */,
+				C8E85A361B57DBF700F78AA5 /* SampleLib.h */,
+				C8E85A371B57DBF700F78AA5 /* SampleLib.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8E85A1B1B57A5BE00F78AA5 /* SampleLib.m in Sources */,
+				C8E85A381B57DBF700F78AA5 /* Opa.m in Sources */,
+				C8E85A391B57DBF700F78AA5 /* SampleLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +376,7 @@
 				C8E85A2B1B57A5BE00F78AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8E85A2C1B57A5BE00F78AA5 /* Build configuration list for PBXNativeTarget "SampleLibTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +385,7 @@
 				C8E85A2E1B57A5BE00F78AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
