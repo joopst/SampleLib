@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SampleLib"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = ""
 
   s.description  = <<-DESC
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/joopst/SampleLib.git", :commit => "d53ada29b9d9318ede40274e89ebc12fe36e353b" }
-  #s.source       = { :git => "https://github.com/joopst/SampleLib.git", :tag => "0.0.1" }
+  #s.source       = { :git => "https://github.com/joopst/SampleLib.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
