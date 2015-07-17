@@ -13,5 +13,7 @@
 - (void)kots;
 - (NSString*)geefEenKoekje;
 
+- (void)test;
+
 
 @end

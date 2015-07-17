@@ -20,7 +20,12 @@
 
 - (NSString*)geefEenKoekje
 {
-    return @"sprits";
+    return @"stroopwafels";
+}
+
+- (void)test
+{
+    
 }
 
 @end
