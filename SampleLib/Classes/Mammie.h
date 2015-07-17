@@ -11,5 +11,7 @@
 @interface Mammie : NSObject
 
 - (void)kots;
+- (NSString*)geefEenKoekje;
+
 
 @end
