@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C85F20021B57F7A600BDAA0D /* Kareltje.m in Sources */ = {isa = PBXBuildFile; fileRef = C85F1FFF1B57F7A600BDAA0D /* Kareltje.m */; };
+		C85F20031B57F7A600BDAA0D /* Mammie.m in Sources */ = {isa = PBXBuildFile; fileRef = C85F20011B57F7A600BDAA0D /* Mammie.m */; };
+		C8CB76E21B58E48600BC1DCD /* SampleLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CB76E11B58E48600BC1DCD /* SampleLibTests.m */; };
 		C8E85A211B57A5BE00F78AA5 /* libSampleLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E85A151B57A5BE00F78AA5 /* libSampleLib.a */; };
 		C8E85A381B57DBF700F78AA5 /* Opa.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E85A351B57DBF700F78AA5 /* Opa.m */; };
 		C8E85A391B57DBF700F78AA5 /* SampleLib.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E85A371B57DBF700F78AA5 /* SampleLib.m */; };
@@ -35,6 +38,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C85F1FFE1B57F7A600BDAA0D /* Kareltje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Kareltje.h; path = Classes/Kareltje.h; sourceTree = "<group>"; };
+		C85F1FFF1B57F7A600BDAA0D /* Kareltje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Kareltje.m; path = Classes/Kareltje.m; sourceTree = "<group>"; };
+		C85F20001B57F7A600BDAA0D /* Mammie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mammie.h; path = Classes/Mammie.h; sourceTree = "<group>"; };
+		C85F20011B57F7A600BDAA0D /* Mammie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mammie.m; path = Classes/Mammie.m; sourceTree = "<group>"; };
+		C8CB76E11B58E48600BC1DCD /* SampleLibTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleLibTests.m; sourceTree = "<group>"; };
 		C8E85A151B57A5BE00F78AA5 /* libSampleLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSampleLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E85A201B57A5BE00F78AA5 /* SampleLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E85A261B57A5BE00F78AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C8E85A251B57A5BE00F78AA5 /* Supporting Files */,
+				C8CB76E11B58E48600BC1DCD /* SampleLibTests.m */,
 			);
 			path = SampleLibTests;
 			sourceTree = "<group>";
@@ -114,6 +123,10 @@
 				C8E85A351B57DBF700F78AA5 /* Opa.m */,
 				C8E85A361B57DBF700F78AA5 /* SampleLib.h */,
 				C8E85A371B57DBF700F78AA5 /* SampleLib.m */,
+				C85F1FFE1B57F7A600BDAA0D /* Kareltje.h */,
+				C85F1FFF1B57F7A600BDAA0D /* Kareltje.m */,
+				C85F20001B57F7A600BDAA0D /* Mammie.h */,
+				C85F20011B57F7A600BDAA0D /* Mammie.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -207,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8E85A381B57DBF700F78AA5 /* Opa.m in Sources */,
+				C85F20031B57F7A600BDAA0D /* Mammie.m in Sources */,
+				C85F20021B57F7A600BDAA0D /* Kareltje.m in Sources */,
 				C8E85A391B57DBF700F78AA5 /* SampleLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8CB76E21B58E48600BC1DCD /* SampleLibTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
