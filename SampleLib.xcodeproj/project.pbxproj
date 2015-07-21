@@ -13,6 +13,7 @@
 		C8E85A211B57A5BE00F78AA5 /* libSampleLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E85A151B57A5BE00F78AA5 /* libSampleLib.a */; };
 		C8E85A381B57DBF700F78AA5 /* Opa.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E85A351B57DBF700F78AA5 /* Opa.m */; };
 		C8E85A391B57DBF700F78AA5 /* SampleLib.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E85A371B57DBF700F78AA5 /* SampleLib.m */; };
+		C8F558C11B5E410700FFD3C6 /* MammieStats.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F558C01B5E410700FFD3C6 /* MammieStats.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C8E85A351B57DBF700F78AA5 /* Opa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Opa.m; path = Classes/Opa.m; sourceTree = "<group>"; };
 		C8E85A361B57DBF700F78AA5 /* SampleLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleLib.h; path = Classes/SampleLib.h; sourceTree = "<group>"; };
 		C8E85A371B57DBF700F78AA5 /* SampleLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleLib.m; path = Classes/SampleLib.m; sourceTree = "<group>"; };
+		C8F558BF1B5E410700FFD3C6 /* MammieStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MammieStats.h; path = Classes/Analytics/MammieStats.h; sourceTree = "<group>"; };
+		C8F558C01B5E410700FFD3C6 /* MammieStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MammieStats.m; path = Classes/Analytics/MammieStats.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 		C8E85A331B57DBED00F78AA5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C8F558BE1B5E40CA00FFD3C6 /* Analytics */,
 				C8E85A341B57DBF700F78AA5 /* Opa.h */,
 				C8E85A351B57DBF700F78AA5 /* Opa.m */,
 				C8E85A361B57DBF700F78AA5 /* SampleLib.h */,
@@ -129,6 +133,15 @@
 				C85F20011B57F7A600BDAA0D /* Mammie.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		C8F558BE1B5E40CA00FFD3C6 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				C8F558BF1B5E410700FFD3C6 /* MammieStats.h */,
+				C8F558C01B5E410700FFD3C6 /* MammieStats.m */,
+			);
+			name = Analytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +236,7 @@
 				C85F20031B57F7A600BDAA0D /* Mammie.m in Sources */,
 				C85F20021B57F7A600BDAA0D /* Kareltje.m in Sources */,
 				C8E85A391B57DBF700F78AA5 /* SampleLib.m in Sources */,
+				C8F558C11B5E410700FFD3C6 /* MammieStats.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
