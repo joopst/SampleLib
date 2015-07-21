@@ -16,7 +16,7 @@
     int i = 0;
     i++;
     
-    i+= 10;
+    i+= 11;
 }
 
 - (NSString*)geefEenKoekje
